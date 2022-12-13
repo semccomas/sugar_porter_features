@@ -7,6 +7,8 @@
 # PfHT: gate_EC = [(43,51), (311,318)], gate_IC = [(145,154), (409,418)]
 
 
+#This is from the strings directory, will change as I develop classes
+
 def make_gate_arr(md_uni, gate_EC, gate_IC):
     from MDAnalysis.analysis import distances
     import numpy as np
